@@ -112,6 +112,7 @@ All libraries used are "standard" libraries for ESP8266, except the OLED display
 - improve UI in the web server (see the status in the web).
 - Add single shoot feature to the web server.
 - add bulb mode.
+- improve the oled display showing remaining time for the next shoot.
 - use of internal timer instead of "count milis".
 - The option to cancel "intervalometer work" with the programmable button instead the RESET button.
 - move texts (web and oled-menu) to a separate class, to "develop" languaje packs.
