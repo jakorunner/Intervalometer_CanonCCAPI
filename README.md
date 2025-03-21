@@ -29,14 +29,28 @@ The IPs are fixed.
 
 
 ## Configure Camera:
- -- to do --
- ### activate CCAPI
-  -- to do --
- ### create a Wifi connection
-  -- to do --
 
+You will need to know if your camera is able to run CCAPI. Check the list in this link: https://developercommunity.usa.canon.com/s/article/CCAPI-Supported-Cameras
+After that, the next step is enable the CCAPI in your camera, create a wifi connection to your ESP8266 wifi AP network.
+
+ ### activate CCAPI
+ First of all, ensure your Canon camera support CCAPI. Check these guidelines to register as a Canon Developer, and download the tool to activate the "developer mode" in your camera. It depends of your geographical area, check these links for instructions:
+- North, Central, and South America: https://developercommunity.usa.canon.com/
+- EMEA and Asia: https://developers.canon-europe.com/s/
+- Oceania: https://www.canon.com.au/support/support-news/support-news/
+
+  If you need a "step by step" guide, i recommend this github project that is pretty well explained: https://github.com/evoth/esp-intervalometer
+
+ ### create a Wifi connection
+  Create in your camera a wifi network. Check the following link to see a step by step guide to configure CCAPI and create a wifi connection:
+  https://cam.start.canon/en/C017/manual/html/UG-06_Network_0130.html
+  I suggest to pre-create a wifi connection before run your ESP8266.
+  
 ## Install software (Arduino IDE)
- -- to do --
+ This code has been developed with Arduino IDE. Open, compile and upload your code to a NodeMCU with OLED display. For details about your board see the technical specs of your board (but usually will be a ESP8266 or nodeMCU or similar). In my case, it is a NodeMCU ESP 12E.
+
+<img src="images/ide.jpg" width="300">
+ 
 
 ## Usage
 This app has 2 ways of use:
@@ -72,7 +86,7 @@ The menu has a "timeout value". If no button pressed in X seconds. The ESP8266 g
 One you have configure the params (frequency and number of shoots), you can select "Start?" and make a short press to start to make shoots.
 Once the intervalometer is working appears this:
 
- -- add image of working -- 
+ -- add image of intervalometer working -- 
  
 You can interrupt the process by pressing RESET (the program will reset and return after connect again to the menu).
 
