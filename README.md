@@ -86,7 +86,7 @@ The menu has a "timeout value". If no button pressed in X seconds. The ESP8266 g
 One you have configure the params (frequency and number of shoots), you can select "Start?" and make a short press to start to make shoots.
 Once the intervalometer is working appears this:
 
- -- add image of intervalometer working -- 
+   <img src="images/2025-03-21 23.36.01.jpg" width="500">
  
 You can interrupt the process by pressing RESET (the program will reset and return after connect again to the menu).
 
