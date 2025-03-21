@@ -44,10 +44,9 @@ This app has 2 ways of use:
 ### by OLED display interface: 
 The ESP8266 Oled display, its a board with an integrated OLED 0.95 display and a programmable button. Enough to manage an option menu to configure intervalometer params and see the progress of the shooting process. With this mode, you can use it without connect a phone/computer to the ESP8266 wifi (Sometimes it's annoying to change Wi-Fi on your mobile phone because when it's a network that doesn't have internet or you restart the ESP8266, the Wi-Fi changes easily and you're not aware of it in your phone)
 
-![image1](images/2025-03-21 13.11.04.jpg)
-<img src="images/2025-03-21 13.11.04.jpg" width="300">
 
 When start the ESP8266, the board create a WIFI AP network and also creates a web server.
+<img src="images/2025-03-21 13.11.04.jpg" width="500">
 
 I suggest that, first of all, create a connection profile (CCAPI Wifi connection) in your camera before start and connect the ESP8266.
 Then, after that, the ESP8266 will try to connect to the Camera API REST main page, for 50 secondos aprox (you can change it by code by the const var TIMEOUT_CAMERA_CONNECT).
@@ -61,9 +60,11 @@ Once, the ESP8266 connected to the CCAPI wfi API, the ESP8266 shows the menu:
 - Single Shoot: --> Make a single shoot (use it as a remote shutter)
 - Start  --> Start the intervalometer with a frequency time of "Frequency" and number of shoots of "Number of shoots"
 
+  <img src="images/2025-03-21 13.12.20.jpg" width="500">
+
 The ESP8266-OLED has a programmable button (GPIO D3). 
-To move across options in the menu, make a long press button (more than 1,2 seconds, this time it can be changed by code in the longPressTime variable).
-To change values in an option menu, make a short press button (less than 1,2 seconds).
+To move across options in the menu, make a long press button (more than 1.2 seconds, this time it can be changed by code in the longPressTime variable).
+To change values in an option menu, make a short press button (less than 1.2 seconds).
 So, with this trick, we can use a single button to move and select across a menu and configure the intervalometer.
 IPs are hardcoded in this mode.
 The menu has a "timeout value". If no button pressed in X seconds. The ESP8266 goes to deepsleep and switchoff the display (time can be changed in the const var TIMEOUT_MENU_OFF). To wake the board, press RESET button.
@@ -71,7 +72,7 @@ The menu has a "timeout value". If no button pressed in X seconds. The ESP8266 g
 One you have configure the params (frequency and number of shoots), you can select "Start?" and make a short press to start to make shoots.
 Once the intervalometer is working appears this:
 
- -- image of working -- 
+ -- add image of working -- 
  
 You can interrupt the process by pressing RESET (the program will reset and return after connect again to the menu).
 
@@ -79,8 +80,8 @@ You can interrupt the process by pressing RESET (the program will reset and retu
 ### by Web server interface: 
 It works similar to use the OLED display. But, when the ESP8266 conects to the Camera, you can use your phone (or computer) to connect to the Wifi of the ESP8266 (use a diferent static IP in order to avoid problems with the Camera IP setted) main page of the ESP8266 (http://19.168.4.1/ui) and appears an interface to manage the Intervalometer:
 
-
--- add screnshots --
+<img src="images/2025-03-21 19.49.41.jpg" width="500">
+<img src="images/2025-03-21 20.07.15.jpg" width="500">
 
 And you can configure in the same way the intervalometer and run it. When the intervalometer is running, you can see in the OLED display the progress.
 
