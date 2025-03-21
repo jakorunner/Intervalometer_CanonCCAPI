@@ -1,13 +1,4 @@
 
-// meter en board y probar.
-// quitar wifi configs.
-// documentar:  intro / install ccapi / config conexion ccapi / conectar chip a camara. video o fotos del funcionamiento / futuras mejoras (mejoras ui web, spanish vars, foto trampeo, mas opciones de menu, portar a ESP32)
-// investigar que hay por ahi
-
-// https://github.com/klarsys/esp8266-OLED
-
-
-
 //wifi libs
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
