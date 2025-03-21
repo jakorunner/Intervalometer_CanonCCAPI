@@ -81,8 +81,8 @@ You can interrupt the process by pressing RESET (the program will reset and retu
 It works similar to use the OLED display. But, when the ESP8266 conects to the Camera, you can use your phone (or computer) to connect to the Wifi of the ESP8266 (use a diferent static IP in order to avoid problems with the Camera IP setted) main page of the ESP8266 (http://19.168.4.1/ui) and appears an interface to manage the Intervalometer:
 
 <p align="center">
-<img src="images/2025-03-21 19.49.41.jpg" width="200">
-<img src="images/2025-03-21 20.07.15.jpg" width="200">
+<img src="images/2025-03-21 19.49.41.jpg" width="300">
+<img src="images/2025-03-21 20.07.15.jpg" width="300">
 </p>
 
 And you can configure in the same way the intervalometer and run it. When the intervalometer is running, you can see in the OLED display the progress.
