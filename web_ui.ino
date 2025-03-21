@@ -50,7 +50,7 @@ String generateRootUI(){
   res  += "<tr><td>IP:</td><td><input type=\"text\" name=\"ip\" placeholder=\"IP\" value=\"" + CAMERA_IP + "\"></td></tr>";
   res  += "<tr><td>PORT:</td><td><input type=\"text\" name=\"puerto\" placeholder=\"Puerto\" value=\"" + CAMERA_PORT + "\"></td></tr>";
   res  += "</table>";
-  res  += "<input type=\"submit\" value=\"Conect-Test photo\">";
+  res  += "<input type=\"submit\" value=\"Connect-Test photo\">";
   res  += "</form>";
 
   res  += "<br>";
