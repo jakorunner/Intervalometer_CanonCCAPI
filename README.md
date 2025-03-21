@@ -44,7 +44,7 @@ This app has 2 ways of use:
 ### by OLED display interface: 
 The ESP8266 Oled display, its a board with an integrated OLED 0.95 display and a programmable button. Enough to manage an option menu to configure intervalometer params and see the progress of the shooting process. With this mode, you can use it without connect a phone/computer to the ESP8266 wifi (Sometimes it's annoying to change Wi-Fi on your mobile phone because when it's a network that doesn't have internet or you restart the ESP8266, the Wi-Fi changes easily and you're not aware of it in your phone)
 
--- add photo --
+![image1](images/2025-03-21 13.11.04.jpg)
 
 When start the ESP8266, the board create a WIFI AP network and also creates a web server.
 
