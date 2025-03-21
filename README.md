@@ -39,7 +39,7 @@ After that, the next step is enable the CCAPI in your camera, create a wifi conn
 - EMEA and Asia: https://developers.canon-europe.com/s/
 - Oceania: https://www.canon.com.au/support/support-news/support-news/
 
-  If you need a "step by step" guide, i recommend this github project that is pretty well explained: https://github.com/evoth/esp-intervalometer
+If you need a "step by step" guide, i recommend this github project that is pretty well explained: https://github.com/evoth/esp-intervalometer
 
  ### create a Wifi connection
   Create in your camera a wifi network. Check the following link to see a step by step guide to configure CCAPI and create a wifi connection:
@@ -49,7 +49,7 @@ After that, the next step is enable the CCAPI in your camera, create a wifi conn
 ## Install software (Arduino IDE)
  This code has been developed with Arduino IDE. Open, compile and upload your code to a NodeMCU with OLED display. For details about your board see the technical specs of your board (but usually will be a ESP8266 or nodeMCU or similar). In my case, it is a NodeMCU ESP 12E.
 
-<img src="images/ide.jpg" width="300">
+<img src="images/ide.jpg" width="600">
  
 
 ## Usage
