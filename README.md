@@ -112,5 +112,5 @@ May be, in the future, i will attach a PIR sensor or distance sensor, easily, to
 At this moment, this project is not closed (a lot of things to do and improve) bus this project meets my personal requirements. So, future features will be developed not soon.
 
 Finally, thanks to:
-@evoth, for inspiration and ideas: https://github.com/evoth/esp-intervalometer
-@klarsys, for the oled display library: https://github.com/klarsys/esp8266-OLED
+- @evoth, for inspiration and ideas: https://github.com/evoth/esp-intervalometer
+- @klarsys, for the oled display library: https://github.com/klarsys/esp8266-OLED
