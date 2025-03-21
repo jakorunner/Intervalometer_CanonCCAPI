@@ -6,18 +6,23 @@ This is a "little bit" older board (It is already difficult to find in some stor
 
 
 ## 📖 Index
-1. [Features](#features)
-2. [Camera Configuration](#camera-configuration)
+1. [Hardware](#Hardware)
+2. [Features](#features)
+3. [Camera Configuration](#camera-configuration)
    - [Activate CCAPI](#activate-ccapi)
    - [Create a WiFi Connection](#create-a-wifi-connection)
-3. [Software Installation (Arduino IDE)](#software-installation-arduino-ide)
-4. [Usage](#usage)
+4. [Software Installation (Arduino IDE)](#software-installation-arduino-ide)
+5. [Usage](#usage)
    - [Using the OLED Display Interface](#using-the-oled-display-interface)
    - [Using the Web Server Interface](#using-the-web-server-interface)
-5. [External Libraries](#external-libraries)
-6. [To-Do and Improvements](#to-do-and-improvements)
-7. [Future Work and Thoughts](#future-work-and-thoughts)
+6. [External Libraries](#external-libraries)
+7. [To-Do and Improvements](#to-do-and-improvements)
+8. [Future Work and Thoughts](#future-work-and-thoughts)
 
+
+## Hardware
+- WIFI OLED ESP8266 board. https://es.aliexpress.com/item/1005005412921002.html
+- Battery (optional): https://es.aliexpress.com/item/32990147903.html
 
 ## Features
 Very basic options (the options i usually need to make timelapses and astrophotography, and sometimes, as a remote shutter. So i dont need a lot of features).
